@@ -8,6 +8,8 @@ twitter_username: gisphm
 github_username:  gisphm
 weibo_username: phm8341
 
+paginate: 5
+
 markdown: redcarpet
 highlighter: pygments
 redcarpet:
