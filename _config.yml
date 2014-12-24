@@ -6,6 +6,7 @@ baseurl: ""
 url: "https://gisphm.github.io" # the base hostname & protocol for your site
 twitter_username: gisphm
 github_username:  gisphm
+weibo_username: phm8341
 
 markdown: redcarpet
 highlighter: pygments
