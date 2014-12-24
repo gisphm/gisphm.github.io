@@ -3,6 +3,8 @@ layout: post
 title: Vim 相关
 ---
 
+---
+
 最开始接触linux时，只知道 `ls`这一条命令，其他的什么都不知道。
 
 现在linux已经成为自己日常的一部分，一天不开就浑身难受。虽然并不是完全地理解了linux，也不能自由地写bash或者zsh的shell脚本，但至少能简单地使用vim进行编辑，写程序。
@@ -19,13 +21,10 @@ title: Vim 相关
 {% endhighlight %}
 
 配置之后就是`make`，然后安装，简单的vim就完成了。
-```
-vim --version
-```
 
 ---
 
-输出为
+`vim --version` 输出为
 {% highlight sh linenos %}
 Huge version without GUI.  Features included (+) or not (-):
 +acl             +farsi           +mouse_netterm   +syntax
