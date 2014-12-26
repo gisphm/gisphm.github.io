@@ -14,7 +14,7 @@ tagline:             '极简主义者'
 description:         '我的技术博客，记录点滴感悟'
 url:                 http://gisphm.github.io
 baseurl:             /
-paginate:            1
+paginate:            4
 
 # About/contact
 author:
