@@ -1,46 +1,20 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-    <div class="sidebar-item">
-        <img id="gravatar" src="http://www.gravatar.com/avatar/0d0bf30599d29fc5caaca74de621f4ec.png">
-    </div>
-    <div class="sidebar-item">
-        <p>{{ site.description }}</p>
-    </div>
-
-    <nav class="sidebar-nav">
-        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}"><i class="fa fa-book"></i> 博客</a>
-
-        {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-        {% endcomment %}
-
-        {% assign pages_list = site.pages | sort:"url" %}
-        {% for node in pages_list %}
-            {% if node.title != null %}
-                {% if node.layout == "page" %}
-                    {% if node.title == "关于我" %}
-                        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}"><i class="fa fa-user"></i> {{ node.title }}</a>
-                    {% else %}
-                        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-                    {% endif %}
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-
-        <a class="sidebar-nav-item" href="https://github.com/{{ site.github_username }}"><i class="fa fa-github-alt"></i> 我的GitHub</a>
-        <a class="sidebar-nav-item" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i> 我的Twitter</a>
-        <a class="sidebar-nav-item" href="http://weibo.com/{{ site.weibo_username }}"><i class="fa fa-weibo"></i> 我的新浪微博</a>
-        <a class="sidebar-nav-item" href="feed://feeds.feedburner.com/gisphm"><i class="fa fa-rss"></i> 订阅我的博客</a>
-    </nav>
-
-    <div class="sidebar-item">
-        <p>
-        <i class="fa fa-copyright"></i> {{ site.time | date: '%Y' }}. All rights reserved.
-        </p>
-    </div>
-</div>
+<nav>
+  <h1>Hi.</h1>
+  <a href="/">
+    {% if site.data.theme.social.gravatar %}
+    <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
+    {% else %}
+    <img src="/logo.png" id="logo" alt="Blog logo"/>
+    {% endif %}
+  </a>
+  <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
+  <div id="bio">
+    <p>I do lots of computer stuff and write something about it.</p>
+    <p>
+      I am still looking for jobs.
+    </p>
+  </div>
+  <div id="social">
+    {% include social.html %}
+  </div>
+</nav>

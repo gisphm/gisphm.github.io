@@ -1,28 +1,5 @@
-# Dependencies
-markdown:            redcarpet
-highlighter:         pygments
-
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
-
-# Setup
-title:               村口小站
-tagline:             '极简主义者'
-description:         '我的技术博客，记录点滴感悟'
-url:                 http://gisphm.github.io
-baseurl:             /
-paginate:            4
-
-# About/contact
-author:
-  name:              gisphm
-  url:               https://twitter.com/gisphm
-  email:             phmfk@hotmail.com
-
-# Custom vars
-twitter_username: gisphm
-github_username:  gisphm
-weibo_username: phm8341
+# General Jekyll Config
+highlighter: pygments
+url: https://gisphm.github.io
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]

@@ -1,0 +1,33 @@
+# Theme customization - please change from the defaults!
+
+# Color for top bar, links, etc
+highlight_color: '#3498db'
+
+# Profile links on the left sidebar, leave blank to ignore
+social:
+  github: gisphm
+  #bitbucket: philipj
+  #hacker_news: swanson
+  #stackexchange: 348619
+  #stackoverflow: 348619
+  twitter: gisphm
+  #facebook: zuck
+  #tumblr: animalygifs
+  #linkedin: philipjagielski
+  gplus: 106666184485610570066
+  gravatar: 3226726a6a4bb47a810fadfe0dbe403b
+  #flickr: johndoe
+
+# "Hi, I'm _______"
+name: Huanming Peng
+email: phmfk@hotmail.com
+tagline: "stay strong, stay neat"
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key: UA-57752495-1
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: true
+
+# Toggle link/icon to view atom feed (/atom.xml) in sidebar
+show_atom_feed: true
