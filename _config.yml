@@ -3,3 +3,6 @@ highlighter: pygments
 url: https://gisphm.github.io
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+gems:
+    - jemoji
+    - jekyll-sitemap
