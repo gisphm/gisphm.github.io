@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 与 Vim 相关
+category: vim
 ---
 
 ---

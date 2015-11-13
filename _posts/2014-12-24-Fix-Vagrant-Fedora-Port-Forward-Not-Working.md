@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 解决 vagrant 的 fedora box 里端口映射的问题
+category: vagrant
 ---
 
 ### 概述

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 将 mercurial 仓库转换成 git 仓库
+category: git
 ---
 
 ### 起因

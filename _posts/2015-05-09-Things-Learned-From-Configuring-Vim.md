@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 絮叨说配置 vim
+category: vim
 ---
 
 ## 他山之石
